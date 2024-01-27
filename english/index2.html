@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alpha_E</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> Alpha</li>
+            <li><a href="index2.html" style="text-decoration: none; color: white;">Home</a></li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>English Vibes</h1>
+            <div class="songItemContainer">
+                
+                <div class="songItem">
+                    <img alt="" src="covers/1.jpg">
+                    <h3>Star Boy</h3>
+                    <span class="songName" style="font-size: 0px;">Kudukku</span>
+                    <span class="songlistplay"><span class="timestamp">03:50 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="" src="covers/2.jpg">
+                    <h3>Let Me Down Slowly</h3>
+                    <span class="songName" style="font-size: 0px;">Shyamambaram</span>
+                    <span class="songlistplay"><span class="timestamp">02:57 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="" src="covers/3.jpg">
+                    <h3>On My Way</h3>
+                    <span class="songName" style="font-size: 0px;">Parayathe Vannen</span>
+                    <span class="songlistplay"><span class="timestamp">03:14 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="" src="covers/4.jpg">
+                    <h3>Im Faded</h3>
+                    <span class="songName" style="font-size: 0px;">Athmave Poo</span>
+                    <span class="songlistplay"><span class="timestamp">03:32 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="" src="covers/5.jpg">
+                    <h3>Lily</h3>
+                    <span class="songName" style="font-size: 0px;">Parayathe Parayathe</span>
+                    <span class="songlistplay"><span class="timestamp">03:15 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="" src="covers/6.jpg">
+                    <h3>Safari</h3>
+                    <span class="songName" style="font-size: 0px;">Cherathukal</span>
+                    <span class="songlistplay"><span class="timestamp">03:07 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="" src="covers/7.jpg">
+                    <h3>Whatever It Takes</h3>
+                    <span class="songName" style="font-size: 0px;">Uyirin Naadhane</span>
+                    <span class="songlistplay"><span class="timestamp">03:21 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="" src="covers/8.jpg">
+                    <h3>Easy On Me</h3>
+                    <span class="songName" style="font-size: 0px;">Ole Melody</span>
+                    <span class="songlistplay"><span class="timestamp">03:44 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="" src="covers/9.jpg">
+                    <h3>Paradise</h3>
+                    <span class="songName" style="font-size: 0px;">Uyiril Thodum</span>
+                    <span class="songlistplay"><span class="timestamp">02:47 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="" src="covers/10.jpg">
+                    <h3>Astronaut In The Ocean</h3>
+                    <span class="songName" style="font-size: 0px;">Theerame</span>
+                    <span class="songlistplay"><span class="timestamp">02:32 <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName" style="font-size: 0px;"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
