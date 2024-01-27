@@ -1,2 +1,0 @@
-# SpotifyClone
-Spotify Clone App
